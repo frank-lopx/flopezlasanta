@@ -1,16 +1,23 @@
 ### Hi there 👋
 
-<!--
-**flopezlasanta/flopezlasanta** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```rust
+impl Flopezlasanta {
+    pub fn about() -> Self {
+        Self {
+            name: "Francisco Lopez",
+            planet_of_birth: "Earth",
+            email: "flopezlasanta@gmail.com",
+        }
+    }
+}
 
-Here are some ideas to get you started:
+impl Programmer for Flopezlasanta {
+    fn topics(&self) -> Vec<&'static str> {
+        vec!["Trading", "Crypto", "24x7 Real Time", "Micro Services", "Machine Learning", "Big Data"]
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    fn major_languages(&self) -> Vec<&'static str> {
+        vec!["Rust", "Java", "Scala", "Python"]
+    }
+}
+```
