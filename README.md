@@ -13,7 +13,7 @@ impl Flopezlasanta {
 
 impl Programmer for Flopezlasanta {
     fn topics(&self) -> Vec<&'static str> {
-        vec!["Trading", "Crypto", "24x7 Real Time", "Micro Services", "Machine Learning", "Big Data"]
+        vec!["Trading", "Crypto", "24x7", "Low Latency", "Micro Services", "Machine Learning", "Big Data"]
     }
 
     fn major_languages(&self) -> Vec<&'static str> {
